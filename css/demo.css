@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft Yahei;
+}
+body .all {
+  margin: 50px auto;
+  width: 1350px;
+}
+body .all .top {
+  height: 40px;
+  line-height: 38px;
+  font-size: 14px;
+  background-color: #f5f5f5;
+  border: 1px solid #dfdfdf;
+  color: #6d6d6d;
+}
+body .all .top div {
+  float: left;
+}
+body .all .top .title {
+  padding: 0 20px;
+  border-right: 1px solid #f5f5f5;
+}
+body .all .top .title:hover {
+  margin: -1px 0 0 -1px;
+  color: #f50;
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+body .all .top .title.jia {
+  margin: -1px 0 0 -1px;
+  background-color: #fff;
+  color: #f40;
+  border: 1px solid #dfdfdf;
+}
+body .all .top .qujian {
+  padding: 0 10px;
+  border-right: 1px solid #f5f5f5;
+}
+body .all .top .qujian:hover {
+  margin: -1px 0 0 -1px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+body .all .top .qujian .money {
+  width: 53px;
+  height: 21px;
+  background-color: #fff;
+  color: #a9a9a9;
+  border: 1px solid #dfdfdf;
+}
+body .all .top .qujian .queding {
+  width: 44px;
+  height: 23px;
+  color: #fff;
+  margin-left: 5px;
+  background-color: #f40;
+  border-radius: 3px;
+  display: none;
+}
+body .all .top .suozai {
+  float: right;
+  margin-right: 200px;
+  padding: 0 20px;
+  border-right: 1px solid #f5f5f5;
+  position: relative;
+}
+body .all .top .suozai:hover {
+  height: 40px;
+  margin-top: -1px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #fff;
+}
+body .all .top .suozai .city {
+  position: absolute;
+  top: 38px;
+  left: -1px;
+  width: 355px;
+  height: 355px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: none;
+}
+body .all .top .fanye {
+  float: right;
+  margin-right: -270px;
+}
+body .all .top .fanye a:last-child:hover {
+  color: #f40;
+}
+body .all .main .bao .one {
+  position: relative;
+  margin-top: 20px;
+  float: left;
+  width: 250px;
+  height: 390px;
+  margin-right: 20px;
+  border: 1px solid #ededed;
+  z-index: -1;
+}
+body .all .main .bao .one:hover {
+  border: 1px solid #f40;
+}
+body .all .main .bao .one .tupian {
+  z-index: -1;
+  position: relative;
+}
+body .all .main .bao .one .tupian:hover .zhao {
+  transform: translateY(-40px);
+}
+body .all .main .bao .one .tupian a img {
+  width: 248px;
+  height: 250px;
+}
+body .all .main .bao .one .tupian .zhao {
+  position: absolute;
+  top: 252px;
+  width: 248px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(255,68,0,0.5);
+  color: #fff;
+  transition: 0.5s;
+}
+body .all .main .bao .one .tupian .zhao span {
+  display: inline-block;
+  width: 124px;
+  text-align: center;
+  border-right: 1px solid #808080;
+}
+body .all .main .bao .one .gai {
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  padding: 0 10px;
+}
+body .all .main .bao .one .gai .baoyou {
+  margin-top: 15px;
+  color: #f40;
+}
+body .all .main .bao .one .gai .baoyou span {
+  font-size: 18px;
+  font-weight: bold;
+}
+body .all .main .bao .one .gai .baoyou label {
+  position: relative;
+  top: -2px;
+  left: 5px;
+  font-size: 12px;
+  background-color: #f40;
+  color: #fff;
+  padding: 0px 2px;
+  z-index: -1;
+}
+body .all .main .bao .one .gai .zi {
+  margin-top: 10px;
+}
+body .all .main .bao .one .gai .zi a {
+  font-size: 12px;
+}
+body .all .main .bao .one .gai .dizhi {
+  font-size: 12px;
+  color: #888;
+  margin-top: 12px;
+}
+body .all .main .bao .one .gai .dizhi span {
+  float: right;
+}
+body .all .main .bao .one .gai .xiaoliang {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #888;
+}
+body .all .main .bao .one .gai .goumai {
+  margin-top: 10px;
+  float: right;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #f40;
+  color: #fff;
+  border-radius: 3px;
+}
